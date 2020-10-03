@@ -249,7 +249,14 @@ color: var(--link-color);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding-bottom: 92px;}
+    padding-bottom: 92px;
+    
+}
+.team-image {
+    border-radius: 0px 0px 4px 4px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #ECECEC
+}
 
 .team-item:not(:last-child) {
         margin-right: 30px;
