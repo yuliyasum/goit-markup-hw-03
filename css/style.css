@@ -173,8 +173,12 @@ padding-bottom: 16px;
 
 .galery-list-item {
   display: inline-block;
+ 
  margin-bottom: 30px;
- border-bottom: 1px solid #ECECEC
+ background: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE
+
+
 }
 .galery-list-item:nth-child(n+7) {
   margin-bottom: 94px;
