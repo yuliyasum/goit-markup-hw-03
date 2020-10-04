@@ -241,16 +241,28 @@ color: var(--link-color);
 /*end examples*/
 
 /*team*/
+.team {
+    background: #F5F4FA;
+    margin-left: auto;
+    margin-right: auto;
+}
 .team .container {
-    display: flex;
-  
+   
+   
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   
+}
+.team-item:not(:last-child) {
+    margin-right: 30px;
 }
 .team-item {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     padding-bottom: 92px;
-    
+   
 }
 .team-image {
     border-radius: 0px 0px 4px 4px;
@@ -258,9 +270,7 @@ color: var(--link-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-item:not(:last-child) {
-        margin-right: 30px;
-}
+
 .team-subtitle {
    
     font-weight: 700;
