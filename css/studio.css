@@ -294,58 +294,64 @@ text-align: center;
 margin-bottom: 30px;}
     /* end team*/
 
-    /*footer*/
-    .footer .container {
-        display: flex;
-        flex-direction: column;
-    min-height: 252px;
-        background-color: var(--main-color);
-    }
-    
-    
-
- .logo-footer {
+  /*footer*/
+ .footer {
+    background-color: #2F303A;
+    margin-left: auto;
+   margin-right: auto;
+  }
+   
+   .footer .container {
     display: flex;
-    align-items: flex-start;
-    
-    padding-top: 60px;
-    padding-bottom: 20px;
-  background-color: var(--main-color);}  
-        
-  .logo-dark-theme {
-    color: var(--primary-color);
-    background-color: var(--main-color); 
-}
-.address-list:not(:last-child) {
-    margin-right: 30px;}
-.address-list {
-    display: flex; 
     flex-direction: column;
-    justify-content: flex-start;
-    background-color: var(--main-color); 
-    padding-bottom: 60px;
-}
-.address-dark-theme-mail,
-.address-dark-theme-tel,
-.address-dark-theme-item {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
-.address-dark-theme-mail,
-.address-dark-theme-tel,
-.address-dark-theme-item:not(:last-child) {
-    padding-bottom: 9px;}
-
-.address-dark-theme-item {
-color: var(--primary-color);
-}
-
-.address-dark-theme-mail,
-.address-dark-theme-tel {
+    align-items: flex-start;
+  height: 252px;}
+  
+   
+  
+  
+  .logo-footer {
+  display: flex;
+  align-items: flex-start;
+  
+  padding-top: 60px;
+  padding-bottom: 20px;
+  }  
+    
+  .logo-dark-theme {
+  color: var(--primary-color);
+  
+  }
+  .address-list:not(:last-child) {
+  margin-right: 30px;}
+  .address-list {
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  padding-bottom: 60px;
+  }
+  .address-dark-theme-mail,
+  .address-dark-theme-tel,
+  .address-dark-theme-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  }
+  .address-dark-theme-mail,
+  .address-dark-theme-tel,
+  .address-dark-theme-item:not(:last-child) {
+  padding-bottom: 9px;}
+  
+  .address-dark-theme-item {
+  color: var(--primary-color);
+  }
+  
+  .address-dark-theme-mail,
+  .address-dark-theme-tel {
   color: var(--shadow-color);
-
-}
-/*footer*/
+  
+  }
+  /*footer*/ 
   
