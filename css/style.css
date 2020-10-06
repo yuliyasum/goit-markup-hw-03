@@ -83,14 +83,13 @@ img {
 .navigation-list-link {
           
     color: var(--main-color);   }
-    
+
     .navigation-list-link-p
  
   {
             
       color: var(--accent-color);      
   }   
-}
 .logo,
 .logo-footer {
     font-family: var(--secondary-font);
