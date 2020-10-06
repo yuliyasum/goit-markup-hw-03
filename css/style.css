@@ -71,7 +71,8 @@ img {
 
 .navigation-list-link,
 .address-light-theme-mail,
-.address-light-theme-tel
+.address-light-theme-tel,
+.navigation-list-link-p
  {
     font-weight: 500;
     font-size: 14px;
@@ -81,7 +82,14 @@ img {
 
 .navigation-list-link {
           
-    color: var(--main-color);      
+    color: var(--main-color);   }
+    
+    .navigation-list-link-p
+ 
+  {
+            
+      color: var(--accent-color);      
+  }   
 }
 .logo,
 .logo-footer {
@@ -104,6 +112,9 @@ img {
 
 .navigation-list-link:hover,
 .navigation-list-link:focus,
+.navigation-list-link-p:hover,
+.navigation-list-link-p:focus,
+.navigation-list-link-p:active,
 .address-light-theme-mail:hover,
 .address-light-theme-mail:focus,
 .address-light-theme-tel:hover,
